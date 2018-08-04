@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jul 29 14:39:34 2018
+
+@author: jihun.lee326@gmail.com
+"""
+
+# Pytorch, torchvision, numpy 그리고 datasets
 import os
 import numpy as np
 
