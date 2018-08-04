@@ -3,5 +3,5 @@ PyTorch implementations of Generative Adversarial Networks.
 
 1. Vanilla GAN
 - https://arxiv.org/abs/1406.2661
-- ![minimax problem](C:\Users\jihun\OneDrive\바탕 화면\깃허브\minmax_problem.png)
+- ![minmax_problem](https://user-images.githubusercontent.com/26371022/43673768-5c236e82-9803-11e8-8d76-ac96e1cc3400.PNG)
 
