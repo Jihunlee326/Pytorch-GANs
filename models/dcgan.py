@@ -1,3 +1,9 @@
+"""
+Created on Thu Jun 21 21:42:26 2018
+
+@author: jihun.lee326@gmail.com
+"""
+
 # Deep Convolutional GAN
 import os
 import numpy as np
