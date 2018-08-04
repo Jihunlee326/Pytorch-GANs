@@ -1,7 +1,7 @@
 """
 Created on Sun Jul 29 14:39:34 2018
 
-@author: jihun.lee326@gmail.com
+@author: jihunlee326
 """
 
 # Pytorch, torchvision, numpy 그리고 datasets
@@ -21,6 +21,8 @@ import torch.nn.functional as F
 
 from PIL import Image
 
+# 근데 초음파영상은 회사 밖으로 못가지고 나오니까.. 
+# load "celebA" or "cifar-10" datasets :)
 from datasets import *
 
 # Hyper parameters
