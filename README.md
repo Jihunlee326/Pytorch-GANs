@@ -1,4 +1,4 @@
-# Pytorch_GAN
+# Pytorch GANs for ultrasound images
 PyTorch implementations of Generative Adversarial Networks.
 
 ## Development Environment
