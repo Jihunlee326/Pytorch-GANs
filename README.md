@@ -1,9 +1,8 @@
 # Pytorch_GAN
 PyTorch implementations of Generative Adversarial Networks.
-===============================================================
 
 
-Vanilla GAN
+### Vanilla GAN
 -----------
 _Generative Adversarial Network_
 
