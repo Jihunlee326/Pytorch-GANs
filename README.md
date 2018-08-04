@@ -5,7 +5,20 @@ PyTorch implementations of Generative Adversarial Networks.
 
 ### Vanilla GAN
 _Generative Adversarial Network_
+
 [[Paper]](https://arxiv.org/abs/1406.2661) [[Code]](VanillaGAN/model.py)
+
+
+### DCGAN
+_Deep Convolutional Generative Adversarial Network_
+
+[[Paper]](https://arxiv.org/abs/1511.06434) [[Code]](DCGAN/model.py)
+
+
+### ACGAN
+_Auxiliary Classifier Generative Adversarial Network_
+
+[[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](ACGAN/model.py)
 
 
 #### Development Environment
