@@ -1,6 +1,12 @@
 # Pytorch GANs for ultrasound images
 PyTorch implementations of Generative Adversarial Networks.
 
+* To do list
+- 초음파영상 불러오는 함수 만들기
+- 학습 결과 이미지 첨부하기
+- Network 이미지화 하기
+
+
 ## Development Environment
 * NVIDIA GTX 1080 ti
 * cuda 8.0
