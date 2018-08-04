@@ -1,5 +1,5 @@
 # Pytorch GANs for ultrasound images
-PyTorch implementations of Generative Adversarial Networks.
+Generative Adversarial Network using ultrasound image.
 
 * To do list
   - 초음파영상 불러오는 함수 만들기
