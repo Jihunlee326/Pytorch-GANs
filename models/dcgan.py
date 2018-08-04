@@ -1,7 +1,7 @@
 """
 Created on Thu Jun 21 21:42:26 2018
 
-@author: jihun.lee326@gmail.com
+@author: jihunlee326
 """
 
 # Deep Convolutional GAN
