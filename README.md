@@ -21,16 +21,16 @@ Generative Adversarial Network using ultrasound image.
 ### Vanilla GAN
 _Generative Adversarial Network_
 
-[[Paper]](https://arxiv.org/abs/1406.2661) [[Code]](models/DCGAN/network.py)
+[[Paper]](https://arxiv.org/abs/1406.2661) [[Code]](models/GAN/network.py)
 
 
 ### DCGAN
 _Deep Convolutional Generative Adversarial Network_
 
-[[Paper]](https://arxiv.org/abs/1511.06434) [[Code]](models/dcgan.py)
+[[Paper]](https://arxiv.org/abs/1511.06434) [[Code]](models/DCGAN/network.py)
 
 
 ### ACGAN
 _Auxiliary Classifier Generative Adversarial Network_
 
-[[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](models/acgan.py)
+[[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](models/ACGAN/network.py)
