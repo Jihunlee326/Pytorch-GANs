@@ -33,8 +33,6 @@ _Generative Adversarial Network_
 ### DCGAN
 _Deep Convolutional Generative Adversarial Network_
 
-<p align="left"><img src="assets/dcgan_1.png"></p>
-
 [[Paper]](https://arxiv.org/abs/1511.06434) [[Code]](models/DCGAN/network.py)
 
 
