@@ -25,6 +25,8 @@ Generative Adversarial Network using ultrasound image.
 ### Vanilla GAN
 _Generative Adversarial Network_
 
+<p align="left"><img src="assets/vanilla gan.png"\></p>
+
 [[Paper]](https://arxiv.org/abs/1406.2661) [[Code]](models/GAN/network.py)
 
 
