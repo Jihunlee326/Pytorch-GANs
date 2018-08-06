@@ -3,7 +3,7 @@ PyTorch implementations of Generative Adversarial Networks.
 Generative Adversarial Network using ultrasound image.
 
 | title | category | tag |
-|:--------|:--------:|--------:|
+|:--------:|:--------:|:--------:|
 |<center>Advanced GANs</center>|<center>generative model</center>|<center>GAN</center>|
 
 * To do list
