@@ -4,7 +4,7 @@ Generative Adversarial Network using ultrasound image.
 
 | title | category | tag |
 |:--------:|:--------:|:--------:|
-|<center>Advanced GANs</center>|<center>generative model</center>|<center>GAN</center>|
+|Advanced GANs|generative model|GAN|
 
 * To do list
   - 초음파영상 불러오는 함수 만들기
