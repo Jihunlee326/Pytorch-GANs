@@ -39,6 +39,4 @@ _Deep Convolutional Generative Adversarial Network_
 ### ACGAN
 _Auxiliary Classifier Generative Adversarial Network_
 
-<p align="left"><img src="assets/ACGAN.png" width="240"\></p>
-
 [[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](models/ACGAN/network.py)
