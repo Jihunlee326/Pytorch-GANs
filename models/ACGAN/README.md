@@ -1,4 +1,4 @@
 Auxiliary Classifier Generative Adversarial Network
 ---------------------------------------------------
 
-<p align="left"><img src="../../assets/ACGAN.png" width="320"\></p>
+<p align="center"><img src="../../assets/ACGAN.png" width="240"\></p>
