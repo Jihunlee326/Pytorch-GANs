@@ -1,7 +1,3 @@
-| title | category | tag |
-|:--------:|:--------:|:--------:|
-|Advanced GANs|generative model|GAN|
-
 # Pytorch GANs for ultrasound images
 PyTorch implementations of Generative Adversarial Networks.  
 Generative Adversarial Network using ultrasound image.
