@@ -38,3 +38,7 @@ _Deep Convolutional Generative Adversarial Network_
 _Auxiliary Classifier Generative Adversarial Network_
 
 [[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](models/ACGAN/network.py)
+
+
+## Acknowledgements
+This implementation has been based on [this repository](https://github.com/hwalsuklee/tensorflow-generative-model-collections) and [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver0.4.0 on Windows 10 and Ubuntu 14.04.
