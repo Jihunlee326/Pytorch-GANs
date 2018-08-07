@@ -41,4 +41,4 @@ _Auxiliary Classifier Generative Adversarial Network_
 
 
 ## Acknowledgements
-This implementation has been based on [this repository](https://github.com/hwalsuklee/tensorflow-generative-model-collections) and [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver0.4.0 on Windows 10 and Ubuntu 14.04.
+This implementation has been based on [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver0.4.0 on Windows 10 and Ubuntu 14.04.
