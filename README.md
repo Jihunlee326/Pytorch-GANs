@@ -42,5 +42,11 @@ _Auxiliary Classifier Generative Adversarial Network_
 [[Paper]](https://arxiv.org/abs/1610.09585) [[Code]](models/ACGAN/network.py)
 
 
+### InfoGAN
+_Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets_
+
+[[Paper]](https://arxiv.org/abs/1606.03657) [[Code]](models/INFOGAN/network.py)
+
+
 ## Acknowledgements
 This implementation has been based on [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver 0.4.0 on Windows 10 and Ubuntu 14.04.
