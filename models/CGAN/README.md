@@ -1,7 +1,7 @@
 Conditional Generative Adversarial Network
 ---------------------------------------------------
 
-<p align="center"><img src="../../assets/CGAN.png" width="240"\></p>
+<p align="center"><img src="../../assets/cgan.png" width="240"\></p>
 
 <img src = '../../assets/CGAN_equation.png' height = '70px'>
 
