@@ -25,7 +25,7 @@ _Generative Adversarial Network_
 
 
 ### CGAN
-_Conditional Generative Adversarial Nets_
+_Conditional Generative Adversarial Network_
 
 [[Paper]](https://arxiv.org/abs/1411.1784) [[Code]](models/CGAN/network.py)
 
