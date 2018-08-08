@@ -43,7 +43,7 @@ _Auxiliary Classifier Generative Adversarial Network_
 
 
 ### InfoGAN
-_Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets_
+_Information Maximizing Generative Adversarial Nets_
 
 [[Paper]](https://arxiv.org/abs/1606.03657) [[Code]](models/INFOGAN/network.py)
 
