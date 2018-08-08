@@ -24,6 +24,12 @@ _Generative Adversarial Network_
 [[Paper]](https://arxiv.org/abs/1406.2661) [[Code]](models/GAN/network.py)
 
 
+### CGAN
+_Conditional Generative Adversarial Nets_
+
+[[Paper]](https://arxiv.org/abs/1411.1784) [[Code]](models/CGAN/network.py)
+
+
 ### DCGAN
 _Deep Convolutional Generative Adversarial Network_
 
