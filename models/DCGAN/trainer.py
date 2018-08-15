@@ -45,7 +45,7 @@ transforms_ = [ transforms.Resize((img_size, img_size), Image.BICUBIC),
 dataloader = DataLoader(ImageDataset("../datasets/CelebA_128crop_FD/CelebA/128_crop/", 
                                      transforms_=transforms_), batch_size=batch_size, shuffle=True)
 
-# Loss function
+# GAN Loss function
 adversarial_loss = nn.BCELoss()
 
 # Initialize generator and discriminator
@@ -64,45 +64,28 @@ optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=lr, betas=(b1, b2)
 # gpu or cpu
 Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 
-# ------------
-#   Training
-# ------------
+##################
+#    Training    #      
+##################
 
 for epoch in range(n_epochs):
     for i, imgs in enumerate(dataloader):
         
-        # Adversarial ground truths
+        # Configure real images and ground truths
+        real_imgs = Variable(imgs.type(Tensor))
         valid = Variable(Tensor(imgs.shape[0], 1).fill_(1.0), requires_grad=False)
         fake = Variable(Tensor(imgs.shape[0], 1).fill_(0.0), requires_grad=False)
         
-        # Configure input
-        real_imgs = Variable(imgs.type(Tensor))
+        ##############################
+        #    Train Discriminator     #      
+        ##############################
+        optimizer_D.zero_grad()
         
-        
-        # --------------------
-        #    Train Generator
-        # --------------------
-        
-        optimizer_G.zero_grad()
-        
-        # Sample noise as generator input(latent vector)
+        # Configure nosie vector
         z = Variable(Tensor(np.random.normal(0, 1, (imgs.shape[0], latent_dim))))
         
         # Generate a batch of images
         gen_imgs = generator(z)
-        
-        # Loss measures generator's abillity to fool the discriminator
-        g_loss = adversarial_loss(discriminator(gen_imgs), valid)
-        
-        g_loss.backward()
-        optimizer_G.step()
-        
-        # ------------------------
-        #    Train Discriminator
-        # ------------------------
-        
-        optimizer_D.zero_grad()
-        
         
         # Measure discriminator's abillity to classify real from generated samples
         real_loss = adversarial_loss(discriminator(real_imgs), valid)
@@ -112,6 +95,21 @@ for epoch in range(n_epochs):
         d_loss.backward()
         optimizer_D.step()
         
+        
+        ##########################
+        #    Train Generator     #      
+        ##########################
+        optimizer_G.zero_grad()
+
+        # Loss measures generator's abillity to fool the discriminator
+        g_loss = adversarial_loss(discriminator(gen_imgs), valid)
+        
+        g_loss.backward()
+        optimizer_G.step()
+        
+        #----------------------------#
+        #    save model pre epoch    #    
+        #----------------------------#
         print("[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f]"
              % (epoch, n_epochs, i, len(dataloader), d_loss.item(), g_loss.item()))
         
