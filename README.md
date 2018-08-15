@@ -11,7 +11,7 @@ Generative Adversarial Network using ultrasound image.
 ## Development Environment
 * NVIDIA GeFore 940MX
 * cuda 8.0
-* python 3.5.3
+* python 3.6.5
 * pytorch 0.4.0
 * torchvision 0.2.1
 
