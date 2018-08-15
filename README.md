@@ -55,5 +55,5 @@ _Information Maximizing Generative Adversarial Nets_
 This implementation has been based on [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver 0.4.0 on Windows 10 and Ubuntu 14.04.
 
 ## To do list
-학습 결과 이미지 첨부하기
-논문 내용 요약하기
+학습 결과 이미지 첨부하기  
+논문 내용 요약하기  
