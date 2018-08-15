@@ -45,7 +45,7 @@ _Auxiliary Classifier Generative Adversarial Network_
 ### InfoGAN
 _Information Maximizing Generative Adversarial Nets_
 
-[[Paper]](https://arxiv.org/abs/1606.03657) [[Code]](models/IGAN/network.py)
+[[Paper]](https://arxiv.org/abs/1606.03657) [[Code]](models/InfoGAN/network.py)
 
 
 ## Acknowledgements
