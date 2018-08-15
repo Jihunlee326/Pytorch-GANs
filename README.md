@@ -19,7 +19,7 @@ _결과 영상은  models 폴더 내  images 폴더에 저장됩니다._
 * pytorch 0.4.0
 * torchvision 0.2.1
 
-
+## Generative Adversarial Networks
 
 ### Vanilla GAN
 _Generative Adversarial Network_
@@ -54,6 +54,6 @@ _Information Maximizing Generative Adversarial Nets_
 ## Acknowledgements
 This implementation has been based on [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver 0.4.0 on Windows 10 and Ubuntu 14.04.
 
-### To do list
+## To do list
 학습 결과 이미지 첨부하기
 논문 내용 요약하기
