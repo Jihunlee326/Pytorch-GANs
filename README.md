@@ -14,7 +14,6 @@ Generative Adversarial Network using ultrasound image.
 * python 3.5.3
 * pytorch 0.4.0
 * torchvision 0.2.1
-* CPU also possible
 
 
 
