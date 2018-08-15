@@ -1,9 +1,10 @@
 # Pytorch GANs for ultrasound images
-PyTorch로 구현한 GAN(Generative Adversarial Networks)
-초음파 영상 버전으로 확장하기 위한 前 단계(for study)
+PyTorch로 구현한 GAN(Generative Adversarial Networks)  
+초음파 영상 버전으로 확장하기 위한 前 단계(for study)  
 
 _Datasets 폴더에 학습 이미지를 저장하면 됩니다._  
 _결과 영상은 models 폴더 내 images 폴더에 저장됩니다._  
+
 
 * To do list
   - 학습 결과 이미지 첨부하기
