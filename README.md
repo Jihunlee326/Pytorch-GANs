@@ -8,7 +8,7 @@ PyTorch로 구현한 GAN(Generative Adversarial Networks)
     $ python trainer.py
 
 _학습 파라미터는 trainer.py 에서 직접 관리합니다._  
-_Datasets 폴더에 학습 이미지를 저장하면 됩니다._    
+_datasets 폴더에 학습 이미지를 저장하면 됩니다._    
 _결과 영상은  models 폴더 내  images 폴더에 저장됩니다._  
 
 
