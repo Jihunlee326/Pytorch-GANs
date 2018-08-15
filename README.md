@@ -2,13 +2,14 @@
 PyTorch로 구현한 GAN(Generative Adversarial Networks)  
 초음파 영상 버전으로 확장하기 위한 前 단계(for study)  
 
-_Datasets 폴더에 학습 이미지를 저장하면 됩니다._  
-_결과 영상은 models 폴더 내 images 폴더에 저장됩니다._  
+## How to use
+    $ git clone https://github.com/Jihunlee326/Pytorch-GANs
+    $ cd models/(사용하고 싶은 모델 경로)/
+    $ python trainer.py
 
-
-* To do list
-  - 학습 결과 이미지 첨부하기
-  - 논문 내용 요약하기
+*학습 파라미터는 trainer.py 에서 직접 관리합니다.
+*Datasets 폴더에 학습 이미지를 저장하면 됩니다.  
+*결과 영상은 models 폴더 내 images 폴더에 저장됩니다.
 
 
 ## Development Environment
@@ -52,3 +53,7 @@ _Information Maximizing Generative Adversarial Nets_
 
 ## Acknowledgements
 This implementation has been based on [this repository](https://github.com/eriklindernoren/PyTorch-GAN) and tested with Pytorch over ver 0.4.0 on Windows 10 and Ubuntu 14.04.
+
+### To do list
+학습 결과 이미지 첨부하기
+논문 내용 요약하기
