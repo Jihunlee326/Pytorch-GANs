@@ -88,7 +88,7 @@ for epoch in range(n_epochs):
         optimizer_D.zero_grad()
         
         # Configure noise vector
-        z = Variable(Tensor(np.random.normal(0, 1, (batch_size, latent_dim))))
+        z = Variable(Tensor(np.random.normal(0, 1, (imgs.shape[0], latent_dim))))
         
         # Generate a fake images
         fake_imgs = generator(z, img_shape)
