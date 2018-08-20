@@ -83,7 +83,7 @@ for epoch in range(n_epochs):
         
         
         ##############################
-        #    Traini Discriminator    #      
+        #    Train Discriminator    #      
         ##############################        
         optimizer_D.zero_grad()
         
@@ -104,7 +104,7 @@ for epoch in range(n_epochs):
         
         
         ##########################
-        #    Traini Generator    #      
+        #    Train Generator    #      
         ##########################
         generator.zero_grad()
         
