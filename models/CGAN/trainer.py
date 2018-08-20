@@ -73,7 +73,6 @@ FloatTensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 LongTensor = torch.cuda.LongTensor if cuda else torch.LongTensor
 
 
-
 ##################
 #    Training    #      
 ##################
@@ -96,8 +95,12 @@ for epoch in range(n_epochs):
         concat_z = torch.cat((label_emb(gen_labels), z), -1)
         
         # concatenate real_image and real_label
-        concat_real = torch.cat((imgs.view(imgs.size(0), -1), label_emb(labels)), -1)
-        
+        if cuda:
+            temp = imgs.view(imgs.size(0), -1).cuda()
+        else:
+            temp = imgs.view(imgs.size(0), -1)
+        #concat_real = torch.cat((imgs.view(imgs.size(0), -1), label_emb(labels)), -1)
+        concat_real = torch.cat((temp, label_emb(labels)), -1)
         
         ##############################
         #    Traini Discriminator    #      
