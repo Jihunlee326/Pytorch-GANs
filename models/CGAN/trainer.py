@@ -79,6 +79,7 @@ LongTensor = torch.cuda.LongTensor if cuda else torch.LongTensor
 
 for epoch in range(n_epochs):
     for i, (imgs, labels) in enumerate(dataloader):
+        batch_size = imgs.shape[0]
         
         # Configure real images, labels and ground truths
         real_imgs = Variable(imgs.type(FloatTensor))
