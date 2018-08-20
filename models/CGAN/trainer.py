@@ -55,10 +55,14 @@ adversarial_loss = nn.MSELoss()
 generator = network.Generator(latent_dim=latent_dim, classes=n_classes, channels=n_channels)
 discriminator = network.Discriminator(classes=n_classes, channels=n_channels)
 
+# Label embedding
+label_emb = nn.Embedding(n_classes, n_classes)
+
 if cuda:
     generator.cuda()
     discriminator.cuda()
     adversarial_loss.cuda()
+    label_emb.cuda()
 
 # Optimizers
 optimizer_G = torch.optim.Adam(generator.parameters(), lr=lr, betas=(b1, b2))
@@ -67,9 +71,6 @@ optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=lr, betas=(b1, b2)
 # gpu or cpu
 FloatTensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 LongTensor = torch.cuda.LongTensor if cuda else torch.LongTensor
-
-# Label embedding
-label_emb = nn.Embedding(n_classes, n_classes)
 
 
 
