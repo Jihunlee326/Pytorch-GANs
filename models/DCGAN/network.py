@@ -58,7 +58,7 @@ class Discriminator(nn.Module):
         
         self.conv_block = nn.Sequential(
                 # [Conv2d]
-                # H_out = (H_in + 2 x padding - dilation x (kernel_size -1) -1) / strid + 1
+                # H_out = (H_in + 2 x padding - dilation x (kernel_size -1) -1) / stride + 1
                 # [-1, 3, 64, 64] -> [-1, 64, 32, 32]
                 nn.Conv2d(3, 64, kernel_size=4, stride=2, padding=1),
                 nn.LeakyReLU(0.2, inplace=True),
